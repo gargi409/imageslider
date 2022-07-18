@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 		<style>
+ 			.slider{
+ 				overflow:hidden;
+ 				height:500px;
+ 			}
+ 			.slider figure div{
+ 				float:left;
+ 				width:20%;
+			}
+			.slider figure img{
+				width:100%;
+				float:left;
+			}
+			.slider figure{
+				left:0;
+				margin:0px;
+				width:500%;
+				animation:20s gs infinite;
+				position:relative;
+			}
+			@keyframes gs{
+    			0%{
+    				left:0%;
+    			}
+   				 10%{
+    				left:0%;
+    			}
+   			 	12%{
+    				left:-100%;
+    			}
+    			22%{
+    				left:-100%;
+    			}
+    			24%{
+    				left:-200%; 
+    			}
+    			34%{
+    				left:-200%;
+   			 	}
+    			36%{
+    				left:-300%;
+    			}
+    			46%{
+    				left:-300%;
+    			}
+    			48%{
+    				left:-400%;
+    			}
+    			58%{
+    				left:-400%;
+    			}
+    			60%{
+    				left:-300%;
+    			}
+    			70%{
+    				left:-300%;
+    			}
+    			72%{
+    				left:-200%;
+    			}
+    			82%{
+    				left:-200%;
+    			}
+    			84%{
+    				left:-100%;
+    			}
+    			94%{
+    				left:-100%;
+    			}
+    			96%{
+    				left:0%;
+    			}
+    			100%{
+    				left:0%;
+    			}
+			 }
+	 		</style>
+    </head>
+    <body>
+    	<div class="slider">
+    		<figure>
+    			<div class="slide">
+	  				<img src="IMG-20200630-WA0019.jpg" alt="img">
+	  			</div>
+	  			<div class="slide">
+	  				<img src="IMG-20200630-WA0016.jpg" alt="img">
+	  			</div>
+	  			<div class="slide">
+	  				<img src="IMG-20200630-WA0017.jpg" alt="img">
+	  			</div>
+	  			<div class="slide">
+	  				<img src="IMG-20200630-WA0015.jpg" alt="img">
+	  			</div>
+	  			<div class="slide">
+	  				<img src="IMG-20200630-WA0015.jpg" alt="img">
+	  			</div>
+    		</figure>
+        </div>
+    </body>
+</html>
